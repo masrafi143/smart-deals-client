@@ -4,7 +4,7 @@ import { Outlet } from 'react-router';
 
 const RootLayout = () => {
     return (
-        <div>
+        <div className='w-6xl mx-auto'>
             <Navbar/>
             <Outlet/>
             
