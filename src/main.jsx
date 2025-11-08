@@ -32,7 +32,7 @@ const router = createBrowserRouter([
       },
       {
       path: 'myProducts',
-      Element: <MyProducts></MyProducts>
+      element: <MyProducts></MyProducts>
       },
       {
         path: 'productDetails/:id',
@@ -41,7 +41,7 @@ const router = createBrowserRouter([
       },
       {
       path: 'myBids',
-      Element: <MyBids></MyBids>
+      element: <MyBids></MyBids>
       },
     ],
   },
